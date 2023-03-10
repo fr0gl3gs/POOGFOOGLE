@@ -10,8 +10,6 @@ local MainSection = Main:NewSection("Main")
 
 
 
-
-
 MainSection:NewSlider("Walkspeed", "adjust speed", 250, 16, function(s) -- 250 (MaxValue) | 16 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
